@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.asr"
+        versionCode = "1" 
+        version     = "0.1.0" >
+
+    <name>Auto Service Reminder</name>
+
+    <description>
+        Vehicle services reminder
+    </description>
+
+    <author href="https://github.com/p4bl1t0" email="pabloluisbotta@gmail.com">
+        Pablo Botta
+    </author>
+    
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+
+</widget>
