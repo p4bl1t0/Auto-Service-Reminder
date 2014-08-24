@@ -1,0 +1,47 @@
+{
+    "actualMileage": 0,
+    "metrics": [
+        {
+            "name": "Aceite",
+            "type": "mileage",
+            "each": 7000,
+            "last": 0
+        },
+        {
+            "name": "Filtro de aceite",
+            "type": "mileage",
+            "each": 14000,
+            "last": 0
+        },
+        {
+            "name": "Filtro de aire",
+            "type": "mileage",
+            "each": 7000,
+            "last": 0
+        },
+        {
+            "name": "Cambio de correa distribución",
+            "type": "mileage",
+            "each": 100000,
+            "last": 0
+        },
+        {
+            "name": "Oblea GNC",
+            "type": "time",
+            "each": 1,
+            "last": "2014-01-01"
+        },
+        {
+            "name": "Cilindros GNC",
+            "type": "time",
+            "each": 5,
+            "last": "2014-01-01"
+        },
+        {
+            "name": "Verificación Técnica Obligatoria",
+            "type": "time",
+            "each": 1,
+            "last": "2014-01-01"
+        }
+    ]
+}
