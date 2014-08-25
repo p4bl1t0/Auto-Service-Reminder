@@ -54,7 +54,7 @@
         /*angular.element(document).ready(function () {
             console.log("DOM Ready");
         });*/
-        $scope.$watch(function() {
+        /*$scope.$watch(function() {
             //console.log($(".gauge"));
             $(".gauge").each(function () {
                 $(this).empty();
@@ -66,7 +66,7 @@
                     title: $(this).attr("data-title")
                 });
             });
-        });
+        });*/
         asr.saveMileage = function () {
             asr.kmChanged = false;
             //console.log(asr.actualKm);

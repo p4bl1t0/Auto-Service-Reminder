@@ -20,7 +20,7 @@
                 <div>Último servicio: {{metric.last | number}} km.</div>
                 <div>Recorrido desde último cambio: <strong>{{metric.diff | number}} km</strong>.</div>
                 <div>Próximo servicio: <em>{{metric.next | number}} km</em>.</div>
-                <div id="gauge-{{metric.name}}" class="gauge" data-value="{{asr.actualKm}}" data-min="{{metric.last}}" data-max="{{metric.next}}" data-title="{{metric.name}}"></div>
+                <!--<div id="gauge-{{metric.name}}" class="gauge" data-value="{{asr.actualKm}}" data-min="{{metric.last}}" data-max="{{metric.next}}" data-title="{{metric.name}}"></div>-->
                 <form name="serviceMadeForm-{{metric.name}}" ng-submit="asr.doService(metric, asr.actualKm, asr.now)">
                     <fieldset class="form-group">
                         <input type="submit" class="btn btn-secondary pull-right" value="Servicio realizado" />
