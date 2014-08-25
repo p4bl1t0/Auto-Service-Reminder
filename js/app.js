@@ -35,8 +35,8 @@
         asr.now = new Date();
         asr.kmChanged = false;
         if(app.data.metrics.length == 0) {
-            var strData = localStorage["appData"];
-            if(strData !== undefined) {
+            var strData = window.storage.load("appData");
+            if(strData !== null) {
                 //Lo tengo almacenado localmente
                 //console.log("Loaded from DB");
                 var storageData = JSON.parse(strData);
@@ -141,7 +141,7 @@
         } else {
             var data = app.data;
         }
-        localStorage["appData"] = JSON.stringify(data);
+        window.storage.save("appData", JSON.stringify(data));
     }
 
     function bindData(data, ctrl) {
